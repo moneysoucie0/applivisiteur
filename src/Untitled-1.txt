@@ -1,0 +1,10 @@
+- Page "Consultation Compte Rendu" a faire
+- Page "Creation Power Point" a faire
+- Page "Consultation Power Point" a faire
+- Page "Creation Messagerie" a faire
+- Page "Consultation Messagerie" a faire
+- Page "Agenda" a faire
+- Page "Creation Medecin" a faire
+- Page "Consultation Medecin" a faire
+- Page "Creation Utilisateur" a faire
+- Page "Consultation Utilisateur" a faire

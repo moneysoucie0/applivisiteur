@@ -1,0 +1,116 @@
+<style>
+    .pricing-table-2 .panel-container,
+    .pricing-table-2 .standout .panel-container,
+    .pricing-table-2.full-boxed-pricing {
+        background-color: #2a2e38 !important
+    }
+
+    .pricing-table-2 .list-group .list-group-item,
+    .pricing-table-2 .list-group .list-group-item:last-child {
+        background-color: #20232c !important;
+        border-color: #2a2e38 !important
+    }
+
+    .pricing-table-2 .panel-wrapper:hover .list-group-item,
+    .pricing-table-2.full-boxed-pricing .panel-wrapper:hover .panel-heading {
+        background-color: #2a2e38 !important
+    }
+
+    .pricing-table-2.full-boxed-pricing .panel-heading {
+        background-color: #20232c !important
+    }
+
+    .pricing-table-2 .fusion-panel,
+    .pricing-table-2 .panel-body,
+    .pricing-table-2 .panel-footer,
+    .pricing-table-2 .panel-heading,
+    .pricing-table-2 .panel-wrapper:last-child .fusion-panel,
+    .pricing-table-2 .standout .fusion-panel {
+        border-color: #2a2e38 !important
+    }
+
+    .pricing-table-2 .panel-body,
+    .pricing-table-2 .panel-footer {
+        background-color: #2a2e38 !important
+    }
+
+    .pricing-table-2.sep-boxed-pricing .panel-heading h3 {
+        color: #555c6e !important
+    }
+
+    .pricing-table-2.full-boxed-pricing.fusion-pricing-table .panel-heading h3,
+    .pricing-table-2.fusion-pricing-table .panel-body .price .decimal-part,
+    .pricing-table-2.fusion-pricing-table .panel-body .price .integer-part {
+        color: #fff !important
+    }
+
+    .pricing-table-2 ul.list-group li {
+        color: #7a89ab !important
+    }
+
+    .txt-before-price {
+        font-size: 12px !important;
+        color: grey !important
+    }
+
+    @media screen and (min-width: 1024px) {
+        .width-25 {
+            width: 25% !important
+        }
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:id="@+id/layout_title_dist" android:layout_marginStart="15dp"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="4dp">
+
+
+                <TextView
+                        android:id="@+id/apero_title"
+                        android:layout_alignParentStart="true"
+                        android:layout_toLeftOf="@+id/apero_distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ec555b"
+                        android:ellipsize="end"
+                        android:letterSpacing="0.04"
+                        android:lineSpacingExtra="-1sp"
+                        android:lines="1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        tools:text="Note 1"/>
+
+                <TextView
+                        android:id="@+id/apero_distance"
+                        android:paddingStart="13dp"
+                        android:paddingEnd="13dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        style="@style/NoteTitleFont"
+                        android:visibility="visible"
+                        tools:text="12.4 km"
+                        android:textSize="14sp" android:textColor="#ffffff"
+                        android:background="@drawable/rounded_background_red" android:layout_marginEnd="10dp"/>
+
+
+            </RelativeLayout>
